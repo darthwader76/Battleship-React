@@ -1,30 +1,3 @@
-// import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React, { Component } from 'react';
 import './App.css';
 
@@ -49,8 +22,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <a
-            className="TheOdinProject-link"
-            href="https://www.theodinproject.com/courses/javascript/lessons/battleship?ref=lnav"
+            className="ProjectReact-link"
+            href="https://github.com/darthwader76/Battleship-React"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +32,6 @@ class App extends Component {
         </header>
         <Gameboard rows = {10} columns = {10} player = {true} handleTurn = {this.handleTurn} turn = {this.state.turn}/>
         <Gameboard rows = {10} columns = {10} player = {false} handleTurn = {this.handleTurn} turn = {this.state.turn}/>
-        <p> {this.state.turn ? "Your Turn" : "Computer Turn"} </p>
       </div>
     );
   }

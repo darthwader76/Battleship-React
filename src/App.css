@@ -38,6 +38,9 @@
 .numberRow{
   margin-left: 6px;
 }
+.gameBoard{
+  display: flex;
+}
 .board button{
   background-color: lightblue;
   width: 3em;
@@ -45,7 +48,7 @@
   border-style: none;
 }
 .player .board .ship{
-  background-color: grey;
+  background-color: olive;
 }
 .board .shot{
   background-color: white;
@@ -60,7 +63,4 @@
 .board{
   display: block;
   width: 50%;
-}
-.gameBoard{
-  display: flex;
 }
