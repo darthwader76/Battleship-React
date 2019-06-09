@@ -1,0 +1,66 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+.column{
+  padding-left: 30px;
+}
+.numberRow{
+  margin-left: 6px;
+}
+.board button{
+  background-color: lightblue;
+  width: 3em;
+  height: 3em;
+  border-style: none;
+}
+.player .board .ship{
+  background-color: grey;
+}
+.board .shot{
+  background-color: white;
+}
+.board .ship.shot{
+  background-color: red;
+}
+.availableShips{
+  list-style: none;
+  display: block;
+}
+.board{
+  display: block;
+  width: 50%;
+}
+.gameBoard{
+  display: flex;
+}
