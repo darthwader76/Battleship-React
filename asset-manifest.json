@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Battleship-React/index.html/static/css/main.b577b797.chunk.css",
-    "main.js": "/Battleship-React/index.html/static/js/main.ede32b30.chunk.js",
-    "main.js.map": "/Battleship-React/index.html/static/js/main.ede32b30.chunk.js.map",
+    "main.js": "/Battleship-React/index.html/static/js/main.d8f6b0ec.chunk.js",
+    "main.js.map": "/Battleship-React/index.html/static/js/main.d8f6b0ec.chunk.js.map",
     "runtime~main.js": "/Battleship-React/index.html/static/js/runtime~main.8bb336dd.js",
     "runtime~main.js.map": "/Battleship-React/index.html/static/js/runtime~main.8bb336dd.js.map",
     "static/js/2.0f58faaa.chunk.js": "/Battleship-React/index.html/static/js/2.0f58faaa.chunk.js",
     "static/js/2.0f58faaa.chunk.js.map": "/Battleship-React/index.html/static/js/2.0f58faaa.chunk.js.map",
     "index.html": "/Battleship-React/index.html/index.html",
-    "precache-manifest.235faf68578b8915cadb24b0ac1a7b53.js": "/Battleship-React/index.html/precache-manifest.235faf68578b8915cadb24b0ac1a7b53.js",
+    "precache-manifest.58f33f6a0dda787f30b610b07bb3547f.js": "/Battleship-React/index.html/precache-manifest.58f33f6a0dda787f30b610b07bb3547f.js",
     "service-worker.js": "/Battleship-React/index.html/service-worker.js",
     "static/css/main.b577b797.chunk.css.map": "/Battleship-React/index.html/static/css/main.b577b797.chunk.css.map"
   }
