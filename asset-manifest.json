@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Battleship-React/tree/gh-pages/static/css/main.b577b797.chunk.css",
-    "main.js": "/Battleship-React/tree/gh-pages/static/js/main.b7420893.chunk.js",
-    "main.js.map": "/Battleship-React/tree/gh-pages/static/js/main.b7420893.chunk.js.map",
-    "runtime~main.js": "/Battleship-React/tree/gh-pages/static/js/runtime~main.3821756b.js",
-    "runtime~main.js.map": "/Battleship-React/tree/gh-pages/static/js/runtime~main.3821756b.js.map",
-    "static/js/2.0f58faaa.chunk.js": "/Battleship-React/tree/gh-pages/static/js/2.0f58faaa.chunk.js",
-    "static/js/2.0f58faaa.chunk.js.map": "/Battleship-React/tree/gh-pages/static/js/2.0f58faaa.chunk.js.map",
-    "index.html": "/Battleship-React/tree/gh-pages/index.html",
-    "precache-manifest.9532d736758c42cb4bab67da2618d5da.js": "/Battleship-React/tree/gh-pages/precache-manifest.9532d736758c42cb4bab67da2618d5da.js",
-    "service-worker.js": "/Battleship-React/tree/gh-pages/service-worker.js",
-    "static/css/main.b577b797.chunk.css.map": "/Battleship-React/tree/gh-pages/static/css/main.b577b797.chunk.css.map"
+    "main.css": "/Battleship-React/static/css/main.b577b797.chunk.css",
+    "main.js": "/Battleship-React/static/js/main.56b67069.chunk.js",
+    "main.js.map": "/Battleship-React/static/js/main.56b67069.chunk.js.map",
+    "runtime~main.js": "/Battleship-React/static/js/runtime~main.7534e9e8.js",
+    "runtime~main.js.map": "/Battleship-React/static/js/runtime~main.7534e9e8.js.map",
+    "static/js/2.0f58faaa.chunk.js": "/Battleship-React/static/js/2.0f58faaa.chunk.js",
+    "static/js/2.0f58faaa.chunk.js.map": "/Battleship-React/static/js/2.0f58faaa.chunk.js.map",
+    "index.html": "/Battleship-React/index.html",
+    "precache-manifest.97cdb30e9336c4dc31394da76ebacced.js": "/Battleship-React/precache-manifest.97cdb30e9336c4dc31394da76ebacced.js",
+    "service-worker.js": "/Battleship-React/service-worker.js",
+    "static/css/main.b577b797.chunk.css.map": "/Battleship-React/static/css/main.b577b797.chunk.css.map"
   }
 }
