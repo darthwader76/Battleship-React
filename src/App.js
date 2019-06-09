@@ -99,9 +99,9 @@ class Gameboard extends React.Component {
 
   placeShip(ship, row, column, rotation = true) {
     if (rotation){
-      if (this.state.board.length < row + ship.getLength()) { throw new Error("Ship is to large to be placed there") }
+      if (this.state.board.length < row + ship.getLength()) { throw new Error("Ship is too large to be placed there") }
       for (let i = 0; i < ship.getLength(); i++){
-        if (this.state.board[row + i][column].ship != null) { throw new Error("Ships can not overlap")}
+        if (this.state.board[row + i][column].ship != null) { throw new Error("Ships cannot overlap")}
       }
       let board = this.state.board.slice();
       for (let i = 0; i < ship.getLength(); i++){
@@ -111,9 +111,9 @@ class Gameboard extends React.Component {
       this.setState({board : board})
       this.ships.push(ship)
     } else {
-      if (this.state.board[row].length < column + ship.getLength()) { throw new Error("Ship is to large to be placed there") }
+      if (this.state.board[row].length < column + ship.getLength()) { throw new Error("Ship is too large to be placed there") }
       for (let i = 0; i < ship.getLength(); i++){
-        if (this.state.board[row][column + i].ship != null) { throw new Error("Ships can not overlap")}
+        if (this.state.board[row][column + i].ship != null) { throw new Error("Ships cannot overlap")}
       }
       let board = this.state.board.slice();
       for (let i = 0; i < ship.getLength(); i++){
@@ -126,7 +126,7 @@ class Gameboard extends React.Component {
   }
 
   receiveAttack(row, column) {
-    if (this.state.board[row][column].shot) { throw new Error("can not shoot the same cords 2x")}
+    if (this.state.board[row][column].shot) { throw new Error("Cannot shoot the same cells!")}
     let board = this.state.board.slice();
     board[row][column].shot = true;
     this.setState({board : board})
